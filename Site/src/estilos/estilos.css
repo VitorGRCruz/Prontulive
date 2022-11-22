@@ -1,0 +1,219 @@
+.container{
+    display: flex; flex-direction: column;
+    align-items: center;justify-content: center;
+    height: 100vh;background-color: #f0f2f5;
+    
+}
+#campos{
+    display: flex;align-items: center;flex-direction: column; 
+    border: 2px solid rgba(18,65,180,1);border-radius: 2vh;
+    box-shadow: 0.5vw 1vh 8px #888888 ; /* form */
+}
+@font-face {
+    font-family: Staatliches;
+    src: url(../assets/fontes/Staatliches-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+text{
+    font-family: Staatliches;font-size: 5vh;color: rgba(18,65,180,1);margin-left: 4px;
+}
+.dados-index{
+  font-size: 4vh;align-self: flex-start; padding: 2vh;
+}
+
+.dados-item{
+  font-size: 3vh;color:rgb(221, 169, 26);border-bottom: 2px solid; border-radius: 4px;
+}
+.div-dados{
+  display:flex; align-items:center;margin: 0;width:100%;
+           
+}
+
+.labelss{
+    font-family: Staatliches;color:rgba(18,65,180,1);font-size: 3vh;padding: 1vh;
+}
+.inputss{
+    border: 3px solid rgba(18,65,180,1);border-radius: 2vh; height: 8vh;
+    outline:none; 
+    color: rgba(18,65,180,1); font-family: Staatliches;
+}
+
+.label-input{
+    width:60%;display: flex;flex-direction: column;
+}
+
+.placeholder-text::placeholder {
+    color: rgba(18,65,180,1);
+    font-family: Staatliches; 
+}
+
+.button {
+   
+    padding: 1vh 2vw;
+    text-align: center;
+    font-family: Staatliches;
+    font-size: 3vh;
+    border-radius: 2vh;
+    margin: 2vh;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none; /* TODOS OS BOTÕES DO SITE  */
+  }
+
+  .button1 {
+    width:60%;
+    background-color: white; 
+    color: rgba(18,65,180,1); 
+    border: 2px solid rgba(18,65,180,1);
+  }
+  
+  .button1:hover {
+    background-color: rgba(18,65,180,1);
+    color: white;
+  }
+
+  #button2{
+    background-color: white;
+    color: rgb(221, 169, 26);
+    border: 2px solid rgb(221, 169, 26);
+
+  }
+  #button2:hover{
+    background-color:rgb(221, 169, 26);
+    color: white;
+  }
+
+.button3{
+background-color: white;
+color: rgb(218, 13, 13);
+border: 2px solid rgb(218, 13, 13);
+}
+.button3:hover{
+background-color:rgb(218, 13, 13);
+color: white;
+}
+
+.button4{
+  background-color: white;
+  color: rgb(11, 209, 27);
+  border: 2px solid rgb(11, 209, 27);
+
+}
+.button4:hover{
+  background-color:rgb(11, 209, 27);
+  color: white;
+} 
+
+  .input-cadastro{
+      padding:1px 10px ;
+  }
+
+  ul {
+   list-style-type: none;
+     margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:rgba(18,65,180,1);
+  }
+  
+  li {
+   float: left;
+    
+
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    font-family: Staatliches;
+    font-size: 3vh;
+    text-align: center;
+    padding: 2vh 2vw;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #f0f2f5;
+    color:rgba(18,65,180,1);
+    
+  }
+  
+  .active {
+    background-color: #f0f2f5;
+    color:rgba(18,65,180,1);
+
+  }
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td {
+  border: 1px solid #ddd;
+  padding: 8px; font-family: Staatliches;cursor: pointer;
+}
+
+tr:hover {background-color: rgb(84, 128, 240);color: white;}
+
+#customers th {
+  padding: 10px;
+  text-align: left;
+  background-color: rgba(18,65,180,1);
+  color: white;
+  border: 1px solid #ddd;
+}
+.modal-edit-senha{
+  display:flex; flex-direction:column;align-items:center;
+}
+
+
+.alert{
+width: 30%;height: 5%; font-family: Staatliches; 
+color:black;display: flex;justify-content: center;align-items: center ; margin: 5vh;
+}
+
+.erro{
+  background-color: rgb(230, 97, 97);margin: 10px;
+}
+
+.sucess{
+  background-color: rgb(20, 202, 90);
+  
+}
+
+option{
+  font-family: Staatliches;
+  color: rgba(18,65,180,1);
+}
+
+.img{
+  margin: 5vh;
+}
+
+.button-modal{
+  width:25%; background-color: rgba(18,65,180,1);color: white;font-family: Staatliches;border: none;
+  font-size: 3vh; height: 7vh;
+}
+.button-modal:hover{
+  background-color: white;color: rgba(18,65,180,1);
+}
+#download{
+  color:rgb(221, 169, 26);font-size:150%;
+
+}
+
+.text-download{
+  font-size: 3vh;color:rgb(221, 169, 26);
+}
+
+#btn-busca{
+  color: rgba(18,65,180,1); margin-left: 4px;cursor: pointer;
+}
+
